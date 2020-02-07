@@ -5,6 +5,9 @@ h1{
     font-size: 3em;
     background-color: blueviolet;
 }
+header{
+    border: 1px solid black;
+}
 header h1{
     color: orange;
     border: 1px solid;
