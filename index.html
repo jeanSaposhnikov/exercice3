@@ -8,6 +8,19 @@
     <title>Exercice #3</title>
 </head>
 <body>
+
+    <header id="entete">
+        <section class="global">
+            <div id="contact"­­>
+                <div class="telephone">&#128241;</div>
+                <p>(p)613-721-7061</p>
+                <div class="telephone">&#128241;</div>
+                <p>(f)613-721-3581</p>
+                <p>climoa@unconventionalplanning.com</p>
+            </div>
+        </section>
+    </header>
+
     <header>
         <nav>
              <ul>
@@ -19,6 +32,7 @@
         </nav>
         <h1>Ceci est un h1</h1>
     </header>
+
     <main>
         <h2>Ceci est un h2 dans un main</h2>
         <h1>Ceci est un h1 dans un main</h1>
@@ -30,4 +44,16 @@
         <p>Footer footer footer footer footer footer footer footer</p>
     </footer>
 </body>
+<script>
+        window.addEventListener('load', function () {
+            let elmChkMenu = document.querySelector('#checkMenu')
+            let elmBtnMenu = document.querySelector('#btnMenu')
+    
+            window.addEventListener('resize', function () {
+                if (window.innerWidth >= 500) {
+                    elmChkMenu.checked = false
+                }
+            })
+        })
+    </script>
 </html>
