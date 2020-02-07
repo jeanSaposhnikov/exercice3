@@ -14,3 +14,9 @@ header h1{
     border: 1px solid;
     text-align: center;
 }
+main{
+    border: 1px solid black;
+}
+footer {
+    border: 1px solid black;
+}
